@@ -16,8 +16,8 @@ ContactChooserActivity:
 -  Will contain a list. The list will be populated with the users from the sqlite database
 -  Each list item should contain the name and phone number of one user
 -  When a list item is clicked, the SendSMSActivity should be loaded
--  The phonenumber of the list item should be passed to the SendSMSActivity screen
--  
+-  The phonenumber of the list item should be passed to the SendSMSActivity screen  
+
 SendSMSActivity:
 -  This screen will have two text field and one button
 -  The textfields will be for the message body of the text and the phone number it will be sent to
