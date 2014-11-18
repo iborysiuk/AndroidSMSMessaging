@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/edtxt_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/edtxt_name"
+        android:layout_below="@+id/edtxt_name"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="@string/edit_txt_last_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtxt_phnum"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/edtxt_age"
+        android:layout_below="@+id/edtxt_age"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/edit_txt_phone_number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edtxt_age"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/edtxt_lastname"
+        android:layout_below="@+id/edtxt_lastname"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="@string/edit_txt_age"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtxt_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:hint="@string/edit_txt_name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edtxt_phnum"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/btn_new_register" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/btn_sendtxt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/btn_register"
+        android:layout_below="@+id/btn_register"
+        android:layout_marginTop="16dp"
+        android:text="@string/btn_send_text" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="132dp"
+        android:text="@string/btn_register" />
+
+    <Button
+        android:id="@+id/btn_sms_history"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/btn_sendtxt"
+        android:layout_below="@+id/btn_sendtxt"
+        android:layout_marginTop="21dp"
+        android:text="@string/btn_sms_history" />
+
+</RelativeLayout>

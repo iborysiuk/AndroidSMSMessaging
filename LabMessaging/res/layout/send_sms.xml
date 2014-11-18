@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/btn_sms_send"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edtxt_sms_body"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="@string/btn_send_sms" />
+
+    <EditText
+        android:id="@+id/edtxt_sms_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:ems="10"
+        android:hint="@string/edit_txt_phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edtxt_sms_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edtxt_sms_phone"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:gravity="top|left|center_vertical"
+        android:hint="@string/edit_txt_sms_body"
+        android:inputType="text" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LabMessaging</string>
+    <!-- Main Screen -->
+    <string name="btn_register">Register user</string>
+    <string name="btn_send_text">Send text</string>
+
+    <!-- Register Activity -->
+    <string name="title_activity_register">Register user</string>
+    <string name="edit_txt_name">Name</string>
+    <string name="edit_txt_last_name">Last name</string>
+    <string name="edit_txt_age">Age</string>
+    <string name="edit_txt_phone_number">Phone number</string>
+    <string name="btn_new_register">Sign up</string>
+
+    <!-- Contact Chooser Activity -->
+    <string name="title_activity_contact_chooser">Contact Chooser</string>
+
+    <!-- Send Sms Activity -->
+    <string name="title_activity_send_sms">Send SMS</string>
+    <string name="edit_txt_phone">+1 (XXX) XXX-XX-XX</string>
+    <string name="edit_txt_sms_body">Enter your message</string>
+    <string name="btn_send_sms">Send SMS</string>
+    <string name="title_activity_smshistory">SMS History</string>
+    <string name="btn_sms_history">Incoming history</string>
+    <string name="title_activity_detail_history">Detail History</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
